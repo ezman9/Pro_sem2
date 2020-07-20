@@ -5,10 +5,19 @@
  */
 package com.mycompany.project_sem2.helpers;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+
 /**
  *
  * @author Hi-XV
  */
 public class DatabaseHelper {
-    
+    public static Connection openConnection() throws Exception{
+        Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            String connectionUrl = "jdbc:sqlserver://localhost;database=DemoDB;";  
+            Connection con = DriverManager.getConnection(connectionUrl,"sa","0123");
+            
+            return con;
+    }
 }
