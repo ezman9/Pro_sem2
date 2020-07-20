@@ -19,5 +19,5 @@ public class DatabaseHelper {
             Connection con = DriverManager.getConnection(connectionUrl,"sa","0123");
             
             return con;
-    }
+    }//
 }
