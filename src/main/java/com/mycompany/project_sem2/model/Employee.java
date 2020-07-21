@@ -10,5 +10,5 @@ package com.mycompany.project_sem2.model;
  * @author Hi-XV
  */
 public class Employee {
-    
+    private int employeeId;
 }
