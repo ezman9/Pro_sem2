@@ -9,7 +9,6 @@ package com.mycompany.project_sem2.model;
  *
  * @author Hi-XV
  */
-public class RoomManagement {
-    private int roomId;
-   
+public class OutputService {
+    
 }

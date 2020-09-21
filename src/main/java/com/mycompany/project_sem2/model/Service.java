@@ -10,5 +10,7 @@ package com.mycompany.project_sem2.model;
  * @author Hi-XV
  */
 public class Service {
-    
+    private int serviceId;
+    private String name;
+    private double price,totalService;
 }
